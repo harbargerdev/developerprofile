@@ -1,0 +1,67 @@
+body {
+    background-color: #0E1C36;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+  font-style: italic;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+div {
+  width: 85%;
+  padding: 10px;
+  overflow: auto;
+}
+
+nav {
+  width: 10%;
+  float: left;
+  padding-top: 10%;
+  border: 3px;
+  border-color: white;
+  min-height: 100%;
+}
+
+.contentContainer {
+  align-items: baseline;
+  float: right;
+  padding-left: 5px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#navLinksList {
+  font-size: 22px;
+  list-style: url();
+  list-style-type: none;
+}
+
+#titleDetailsSection {
+  float: right;
+  width: 70%;
+  align-items: baseline;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  padding-bottom: 5px;
+}
